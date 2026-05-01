@@ -1,5 +1,5 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local ExplosionRemote = ReplicatedStorage.RemoteEvents:WaitForChild("Explosion")
+local ExplosionRemote = ReplicatedStorage.RemoteEvents:WaitForChild("Explosion") -- make sure to reference the path of the remote event (e.g mine is in a folder)
 local TweenService = game:GetService("TweenService")
 
 ExplosionRemote.OnClientEvent:Connect(function(pos, color, size, time)
