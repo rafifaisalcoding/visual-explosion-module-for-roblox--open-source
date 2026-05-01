@@ -1,4 +1,4 @@
-a small open source project capable of running both local and server sided explosions (its a bit bad due to copy and paste stuff but it works as is instead of the client script needing to call the module directly, though you can recode it if you want to)
+a small open source project capable of running both local and server sided explosions (its a bit bad due to it looking more of like a "copy and paste" code on both the scripts (written in similar ways) but it works as is instead of the client script needing to call the module directly, though you can recode it if you want to)
 
 by using this, you can run local explosions on both the client AND the server, being your choice.
 
